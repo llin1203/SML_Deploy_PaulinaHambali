@@ -1,0 +1,14 @@
+name: heart-failure-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - scikit-learn
+  - mlflow==2.19.0
+  - matplotlib
+  - seaborn
+  - pip
+  - pip:
+    - dagshub
